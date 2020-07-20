@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>1.0</jspversion>
+	<shortname>ct</shortname>
+
+<tag>
+    <name>Combodistritos</name>
+	<tagclass>etiquetas.Combodistritos</tagclass>
+	<bodycontent>empty</bodycontent>
+	<info>Carga el combo de distritos</info>
+	<attribute>
+	<name>valorcombo</name>
+	<required>false</required>
+	<rtexprvalue>true</rtexprvalue>
+	</attribute>
+</tag>
+
+<tag>
+    <name>categoriacombo</name>
+	<tagclass>etiquetas.ComboCategorias</tagclass>
+	<bodycontent>empty</bodycontent>
+	<info>Carga el combo de categorias</info>
+	<attribute>
+	<name>valorcombo</name>
+	<required>false</required>
+	<rtexprvalue>true</rtexprvalue>
+	</attribute>
+</tag>
+
+<tag>
+    <name>categoriaselicombo</name>
+	<tagclass>etiquetas.ComboCategoriasEli</tagclass>
+	<bodycontent>empty</bodycontent>
+	<info>Carga el combo de las categorias eliminadas</info>
+</tag>
+
+<tag>
+    <name>proveedorcombo</name>
+	<tagclass>etiquetas.ComboProveedores</tagclass>
+	<bodycontent>empty</bodycontent>
+	<info>Carga el combo de los proveedores</info>
+	<attribute>
+	<name>valorcombo</name>
+	<required>false</required>
+	<rtexprvalue>true</rtexprvalue>
+	</attribute>
+</tag>
+
+<tag>
+    <name>proveedorelicombo</name>
+	<tagclass>etiquetas.ComboProveedoresEli</tagclass>
+	<bodycontent>empty</bodycontent>
+	<info>Carga el combo de los proveedores eliminados</info>
+</tag>
+
+<tag>
+    <name>productoscombo</name>
+	<tagclass>etiquetas.ComboProductos</tagclass>
+	<bodycontent>empty</bodycontent>
+	<info>Carga el combo de los productos</info>
+</tag>
+
+<tag>
+    <name>productoselicombo</name>
+	<tagclass>etiquetas.ComboProductosEli</tagclass>
+	<bodycontent>empty</bodycontent>
+	<info>Carga el combo de los productos eliminados</info>
+</tag>
+
+<tag>
+    <name>usuarioscombo</name>
+	<tagclass>etiquetas.ComboUsuario</tagclass>
+	<bodycontent>empty</bodycontent>
+	<info>Carga el combo de los usuarios</info>
+</tag>
+
+<tag>
+    <name>usuarioselicombo</name>
+	<tagclass>etiquetas.ComboUsuarioEli</tagclass>
+	<bodycontent>empty</bodycontent>
+	<info>Carga el combo de los usuarios eliminado</info>
+</tag>
+
+<tag>
+    <name>tipousuarioscombo</name>
+	<tagclass>etiquetas.ComboTipoUsuario</tagclass>
+	<bodycontent>empty</bodycontent>
+	<info>Carga el combo de los Tipos de usuarios</info>
+	<attribute>
+	<name>valorcombo</name>
+	<required>false</required>
+	<rtexprvalue>true</rtexprvalue>
+	</attribute>
+</tag>
+
+<tag>
+     <name>autoidusuario</name>
+     <tagclass>etiquetas.ComboAutoIDUsuario</tagclass>
+     <bodycontent>empty</bodycontent>
+     <info>obtiene el codigo siguiente del ultimo de usuario</info>
+</tag>
+
+<tag>
+     <name>autoidproducto</name>
+     <tagclass>etiquetas.ComboAutoIDProducto</tagclass>
+     <bodycontent>empty</bodycontent>
+     <info>obtiene el codigo siguiente del ultimo producto</info>
+</tag>
+
+<tag>
+     <name>autoidcategoria</name>
+     <tagclass>etiquetas.ComboAutoIDCategoria</tagclass>
+     <bodycontent>empty</bodycontent>
+     <info>obtiene el codigo siguiente de la ultima cateogoria</info>
+</tag>
+
+<tag>
+     <name>autoidproveedor</name>
+     <tagclass>etiquetas.ComboAutoIDProveedor</tagclass>
+     <bodycontent>empty</bodycontent>
+     <info>obtiene el codigo siguiente del ultimo proveedor</info>
+</tag>
+
+
+</taglib>
+ 
